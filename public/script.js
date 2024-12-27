@@ -13,7 +13,7 @@ document.getElementById('jsonForm').addEventListener('submit', function(event) {
     }
 
     // Construct the URL with query parameters
-    const url = `/write-json?${params.toString()}`;
+    const url = `/rest/v1/7bg89ds39dbvfd1b5783/p/client/write?${params.toString()}`;
 
     fetch(url)
         .then(response => response.text())
