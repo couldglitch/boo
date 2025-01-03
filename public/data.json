@@ -1,0 +1,29 @@
+[
+  {
+    "deviceid": 100002,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "Boobalan@12345",
+    "code": "xjkrnTvezRPjQvLiNm3Q6ou90imNhe",
+    "status": "online"
+  },
+  {
+    "deviceid": 100003,
+    "name": "Boobalan",
+    "email": "boo@gmail.com",
+    "password": "12345",
+    "code": "CURgzwRlGc13zLCEgMhkt5MSq5WIW0",
+    "status": "offline"
+  },
+  {
+    "deviceid": 100005,
+    "name": "boo",
+    "email": "hi@gmail.com",
+    "password": "1234",
+    "code": "2GG56pwCAfXslwlqkkXoTMCx7xKol5",
+    "status": "online",
+    "sensor1": "34",
+    "sensor2": "45",
+    "sensor3": "34"
+  }
+]
