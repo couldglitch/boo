@@ -91,10 +91,9 @@ app.get('/dashboard', (req, res) => {
         // Set the username in localStorage
         localStorage.setItem('username', '${username}');
         localStorage.setItem('useremail', '${useremail}');
-        localStorage.setItem('useremail', '${userid}');
-        localStorage.setItem('useremail', '${usercode}');
-        localStorage.setItem('useremail', '${userstatus}');
-        
+        localStorage.setItem('userid', '${userid}');
+        localStorage.setItem('usercode', '${usercode}');
+        localStorage.setItem('userstatus', '${userstatus}');
 
 
 
