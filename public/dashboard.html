@@ -10,8 +10,10 @@
     <div class="profile-card">
         <h2 id="name">${username}</h2>
         <p id="email">${useremail}</p>
-        <p id="key-copy">API Key: <span id="api-key">12345-ABCDE</span></p>
-        <p id="status" class="status online">Status: <span>Online</span></p>
+        <p id="deviceid">Device ID:<span>${userid}</span></p>
+
+        <p id="key-copy">API Key: <span id="api-key">${usercode}</span></p>
+        <p id="status" class="status online">Status: <span>${userstatus}</span></p>
         <button class="copy-key" onclick="copyKey()">Copy Key</button>
         
         <!-- Corrected Logout Button -->
@@ -29,6 +31,13 @@
         // Set the username in localStorage
         localStorage.setItem('username', '${username}');
         localStorage.setItem('useremail', '${useremail}');
+        localStorage.setItem('userid', '${userid}');
+        localStorage.setItem('usercode', '${usercode}');
+        localStorage.setItem('userstatus', '${userstatus}');
+        
+
+
+
          // This will be replaced by the server-side code
     </script>
 
